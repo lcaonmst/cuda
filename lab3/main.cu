@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 
-__global__ kernel() {
+__global__ void kernel() {
     while (true) {};
 }
 
@@ -11,5 +11,5 @@ int main() {
 //    int* gpu_arr;
 //    cudaMalloc(&gpu_arr, N * sizeof(int));
     kernel<<<1, 256>>>();
-    cout << "siema";
+    std::cout << "siema";
 }
