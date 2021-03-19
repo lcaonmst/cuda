@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 __global__ void kernel() {
-    while (true) {};
+    printf("zrob cos prosze\n");
 }
 
 int main() {
